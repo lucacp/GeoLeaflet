@@ -1,0 +1,15 @@
+{
+  "name": "geoleaflet",
+  "version": "1.0.0",
+  "description": "Geographic interaction with leaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste"
+  },
+  "keywords": [
+    "geographic",
+    "leaflet"
+  ],
+  "author": "lucacp",
+  "license": "MIT"
+}
