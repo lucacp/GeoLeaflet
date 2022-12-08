@@ -11,5 +11,10 @@
     "leaflet"
   ],
   "author": "lucacp",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucacp/geoleaflet.git"
+
+  }
 }
