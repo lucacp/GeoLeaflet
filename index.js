@@ -16,3 +16,18 @@ var polygon = L.polygon([
   [-27.064201, -52.6300],
   [-27.064295, -52.6313]
 ]).addTo(map);
+
+marker.bindPopup("I am a marker popup.");
+circle.bindPopup("I am a circle");
+polygon.bindPopup("I am a polygon");
+var popup = L.popup()
+  .setLatLng([-27.0639, -52.633])
+  .setContent("I am standalone popup.")
+  .openOn(map);
+
+function onMapClick(e){
+  popup.setLatLng(e.latlng);
+  popup.setContent("You clicked the map at " + e.latlng)
+  popup.openOn(map);
+}
+map.on("click", onMapClick);
